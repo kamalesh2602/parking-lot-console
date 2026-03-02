@@ -1,6 +1,7 @@
 com/kamal/parking/model/VehicleType.class
 com/kamal/parking/model/Truck.class
-com/kamal/parking/model/Bike.class
 com/kamal/parking/model/ParkingSlot.class
 com/kamal/parking/model/Car.class
 com/kamal/parking/model/Vehicle.class
+com/kamal/parking/model/Bike.class
+com/kamal/parking/model/Floor.class
