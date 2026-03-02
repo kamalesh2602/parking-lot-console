@@ -3,14 +3,18 @@ package com.kamal.parking.model;
 public abstract class Vehicle {
 
     private String licensePlate;
+    private VehicleType type;
 
-    public Vehicle(String licensePlate) {
+    public Vehicle(String licensePlate, VehicleType type) {
         this.licensePlate = licensePlate;
+        this.type = type;
     }
 
     public String getLicensePlate() {
         return licensePlate;
     }
 
-    public abstract String getType();
+    public VehicleType getType() {
+        return type;
+    }
 }
